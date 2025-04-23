@@ -97,29 +97,49 @@ h1 {
 #contacts {
   text-align: center;
 }
+
 footer {
   p {
     text-align: center;
   }
-button {
-  display: block;
-  margin: 60px auto 30px;
-  width: 180px;
-  height: 44px;
-  background-color: #000000;
-  color: #ffffff;
-  border: none;
-  border-radius: 22px;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  cursor: pointer;
+
+  button {
+    display: block;
+    margin: 60px auto 30px;
+    width: 180px;
+    height: 44px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: var(--background-color);
+    transition: all 0.5s ease-in-out;
+  }
+
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .icon {
+    transition: transform 0.5s ease;
+  }
+
+  .icon-link:hover .icon {
+    transform: rotate(360deg); 
 }
-ul {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-}
+
 }
