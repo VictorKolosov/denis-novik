@@ -1,0 +1,30 @@
+:root {
+--main-font: sans-serif;
+--regular-weight: 400;
+--bold-weight: 700;
+}
+
+body {
+font-family: var(--main-font);;
+}
+
+header {
+  width: 970px;
+  margin: 0 auto;
+}
+
+hr {
+  width: 970px;
+  margin: 0 auto;
+}
+
+main {
+  width: 970px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 970px;
+  margin: 0 auto;
+}
+
